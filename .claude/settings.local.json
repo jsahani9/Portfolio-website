@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c *)",
+      "Bash(npm install *)",
+      "Bash(/usr/local/bin/npm install *)",
+      "Read(//opt/homebrew/bin/**)",
+      "Read(//Users/jasveensinghsahani/.nvm/versions/**)",
+      "Bash(brew install *)",
+      "Bash(export PATH=\"/opt/homebrew/bin:$PATH\")",
+      "Bash(npm --version)",
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)"
+    ]
+  }
+}
